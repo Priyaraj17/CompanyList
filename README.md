@@ -16,7 +16,7 @@ Suppose you want to connect with recruiters of Sharechat so these are steps whic
 </ol>
 
 ## Usage ⭐️
-I hope this sheet will be helpful to others. Please share this sheet among your peers and do give it a star ⭐️
+Feel free to update this sheet and add details such as CTC and internship stipend as well. I hope this sheet will be helpful to others. Please share this sheet among your peers and do give it a star ⭐️
 
 ## Feel free to connect with me
 
