@@ -154,6 +154,7 @@
 <li>LimeChat(18 LPA)</li>
 <li>Scalar(22LPA)</li>
 <li>Netomi</li>
+<li>Dukaan</li>
 <li>Dotpe</li>
 <li>Procol</li>
 <li>RudderStack</li>
