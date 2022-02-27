@@ -1,6 +1,15 @@
 ## LIST OF COMPANIES
 
-### High pay and amazing work
+### Dream ⭐️⭐️⭐️⭐️⭐️
+<ul>
+  <li>Google</li>
+  <li>Meta</li>
+  <li>Apple</li>
+  <li>Microsoft</li>
+  <li>Netflix</li>
+  <li>Amazon</li>
+</ul>
+### The Big Ones ⭐️⭐️⭐️⭐️
 <ul>
 <li>Sprinklr </li>
 <li>Salesforce</li>
@@ -35,14 +44,13 @@
 <li>VMware</li>
 <li>Nvidia</li>
 <li>Arista Networks</li>
-<li>Palo Alto Networks</li>
 <li>Cadence Inc</li>
-<li>Nike</li>
 <li>Coinbase</li>
 </ul>
 
-### Fin-Tech
+### Fin-Tech and Banks ⭐️⭐️⭐️
 <ul> 
+<li>Deutsche Bank</li>
 <li>Tower Research Capital</li>
 <li>World Quant</li>
 <li>Gravitation Quant</li>
@@ -57,9 +65,13 @@
 <li>Fidelity Investments</li>
 <li> American Express </li>
 <li> Deutsche Bank </li>
+<li>Telstra</li>
+<li>Splashlearn(12LPA)</li>
+<li>Paypal</li>
+<li>Hotstar</li>
 </ul>
 
-### Indian Unicorns
+### Indian Unicorns ⭐️⭐️⭐️
 <ul> 
 <li>InMobi </li>
 <li>Flipkart</li>
@@ -119,7 +131,7 @@
 <li>UpGrad</li>
 <li>CoinDCX</li>
 <li>Eruditus</li>
-<li>Grofers</li>
+<li>Blinkit</li>
 <li>Zetwerk</li>
 <li>MPL</li>
 <li>Apna</li>
@@ -135,16 +147,41 @@
 <li>Slice</li>
 </ul>
 
-### Startups
+### Good Startups ⭐️⭐️
+<ul>  
+<li>Dunzo</li>
+<li>Flock</li>
+<li>LimeChat(18 LPA)</li>
+<li>Scalar(22LPA)</li>
+<li>Netomi</li>
+<li>Dotpe</li>
+<li>Procol</li>
+<li>RudderStack</li>
+<li>Headout</li>
+<li>Juspay</li>
+<li>Fasal</li>
+<li>BarRaiser</li>
+<li>Cogno AI</li>
+<li>Dunzo</li>
+<li>Blue Smart</li>
+<li>Schbang</li>
+<li>NoBroker</li>
+<li>Verloop</li>
+<li>Ninjacart</li>
+<li>Yellow.ai</li>
+<li>Retail Pulse</li>
+<li>Semaai</li>
+<li>IndePay</li>
+<li>Airtribe</li>
+<li>Castled Data</li>
+<li>Algo University</li>
+<li>Spyne AI</li>
+</ul>
+
+
+### Others ⭐️⭐️
 <ul>
 <li>SAP Labs</li>
-<li>Dunzo</li>
-<li>Deutsche Bank</li>
-<li>Telstra</li>
-<li>Splashlearn(12LPA)</li>
-<li>Paypal</li>
-<li>Hotstar</li>
-<li>Flock</li>
 <li>MoEngage</li>
 <li>Commvault(21LPA)</li>
 <li>Siemens Healthineers</li>
@@ -161,6 +198,4 @@
 <li>Airbus</li>
 <li>AppDynamics</li>
 <li>Grab</li>
-<li>LimeChat(18 LPA)</li>
-<li>Scalar(22LPA)</li>
 </ul>
