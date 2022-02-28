@@ -95,7 +95,7 @@
 <li>BigBasket</li>
 <li>Rivigo</li>
 <li>Druva Software</li>
-<li>Incertis</li>
+<li>Icertis</li>
 <li>Citius Tech</li>
 <li>Ola Electric</li>
 <li>LensKart</li>
