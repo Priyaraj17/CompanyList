@@ -163,7 +163,7 @@
 <li>Fasal</li>
 <li>BarRaiser</li>
 <li>Cogno AI</li>
-<li>Dunzo</li>
+<li>GeeksforGeeks</li>
 <li>Blue Smart</li>
 <li>Schbang</li>
 <li>NoBroker</li>
