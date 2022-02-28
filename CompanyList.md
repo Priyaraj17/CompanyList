@@ -1,4 +1,4 @@
-## LIST OF COMPANIES
+## LIST OF COMPANIES 💼
 
 ### Dream ⭐️⭐️⭐️⭐️⭐️
 <ul>
@@ -69,6 +69,7 @@
 <li>Splashlearn(12LPA)</li>
 <li>Paypal</li>
 <li>Hotstar</li>
+<li>Barclays</li>
 </ul>
 
 ### Indian Unicorns ⭐️⭐️⭐️
@@ -100,7 +101,8 @@
 <li>Ola Electric</li>
 <li>LensKart</li>
 <li>Pine Labs</li>
-<li>Nyka</li>
+<li>Nykaa</li>
+<li>Myntra</li>
 <li>Postman</li>
 <li>Unacademy</li>
 <li>RazorPay</li>
@@ -201,4 +203,5 @@
 <li>Grab</li>
 <li>Global IDs</li>
 <li>Coditas</li>
+<li>Salesforce</li>
 </ul>
