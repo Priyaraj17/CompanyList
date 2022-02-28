@@ -20,7 +20,7 @@
 <li>CodeNation</li>
 <li>OCI</li>
 <li>Atlassian</li>
-<li>Twillio</li>
+<li>Twilio</li>
 <li>Twitter</li>
 <li>Zoom</li>
 <li>Slack</li>
