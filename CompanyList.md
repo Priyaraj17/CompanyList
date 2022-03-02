@@ -69,7 +69,6 @@
 <li>Telstra</li>
 <li>Splashlearn(12LPA)</li>
 <li>Paypal</li>
-<li>Hotstar</li>
 <li>Barclays</li>
 </ul>
 
