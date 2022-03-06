@@ -1,6 +1,7 @@
 ## LIST OF COMPANIES 💼
 
 ### Dream ⭐️⭐️⭐️⭐️⭐️
+
 <ul>
   <li>Google</li>
   <li>Meta</li>
@@ -11,6 +12,7 @@
 </ul>
 
 ### The Big Ones ⭐️⭐️⭐️⭐️
+
 <ul>
 <li>Sprinklr </li>
 <li>Salesforce</li>
@@ -50,6 +52,7 @@
 </ul>
 
 ### Fin-Tech and Banks ⭐️⭐️⭐️
+
 <ul> 
 <li>Deutsche Bank</li>
 <li>Tower Research Capital</li>
@@ -73,6 +76,7 @@
 </ul>
 
 ### Indian Unicorns ⭐️⭐️⭐️
+
 <ul> 
 <li>InMobi </li>
 <li>Flipkart</li>
@@ -150,6 +154,7 @@
 </ul>
 
 ### Good Startups ⭐️⭐️
+
 <ul>  
 <li>Dunzo</li>
 <li>Flock</li>
@@ -181,8 +186,8 @@
 <li>Spyne AI</li>
 </ul>
 
-
 ### Others ⭐️⭐️
+
 <ul>
 <li>SAP Labs</li>
 <li>MoEngage</li>
