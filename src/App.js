@@ -4,11 +4,15 @@ import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Companies from "./components/Companies/Companies";
 import About from "./About.js";
+import CompanyType from "./components/CompanyType/CompanyType";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   const companyTypes = [
     {
       Type: "Dream",
-      list: ["Google", "Meta", "Apple", "Microsoft", "Netflix", "Amazon"]
+      list: ["Google", "Meta", "Apple", "Microsoft", "Netflix", "Amazon"],
     },
     {
       Type: "Big",
@@ -47,8 +51,8 @@ function App() {
         "Nvidia",
         "Arista Networks",
         "Cadence Inc",
-        "Coinbase"
-      ]
+        "Coinbase",
+      ],
     },
     {
       Type: "FinTechBanks",
@@ -71,8 +75,8 @@ function App() {
         "Telstra",
         "Splashlearn(12LPA)",
         "Paypal",
-        "Barclays"
-      ]
+        "Barclays",
+      ],
     },
     {
       Type: "unicorns",
@@ -149,8 +153,8 @@ function App() {
         "Rebel Foods",
         "Spinny",
         "Upstox",
-        "Slice"
-      ]
+        "Slice",
+      ],
     },
     {
       Type: "Startups",
@@ -182,8 +186,8 @@ function App() {
         "Airtribe",
         "Castled Data",
         "Algo University",
-        "Spyne AI"
-      ]
+        "Spyne AI",
+      ],
     },
     {
       Type: "Others",
@@ -206,15 +210,16 @@ function App() {
         "AppDynamics",
         "Grab",
         "Global IDs",
-        "Coditas"
-      ]
-    }
+        "Coditas",
+      ],
+    },
   ];
 
   return (
-    <div className="container">
+    <>
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<CompanyType types={companyTypes} />} />
+        <Route path="/about" element={<About />} />
         <Route
           path="/dream"
           element={<Companies companies={companyTypes[0]} />}
@@ -241,7 +246,7 @@ function App() {
         />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -1,6 +1,7 @@
 import Company from "../Company/Company";
 import Navbar from "../Navbar/Navbar";
 import Header from "../Header/Header";
+
 import "./Companies.css";
 
 const Companies = ({ companies }) => {
@@ -10,7 +11,7 @@ const Companies = ({ companies }) => {
       <div className="list">
         <Navbar />
         <ol className="gradient-list">
-          {companies.list.map(id => (
+          {companies.list.map((id) => (
             <Company Name={id} />
           ))}
         </ol>
