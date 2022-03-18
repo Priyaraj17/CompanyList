@@ -10,6 +10,7 @@
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
+    "mdb-react-ui-kit": "^2.4.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
@@ -17,6 +18,8 @@
     "react-router": "^6.2.2",
     "react-router-dom": "^6.2.2",
     "react-scripts": "^5.0.0",
+    "react-scrollbar": "^0.5.6",
+    "smooth-scrollbar": "^8.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

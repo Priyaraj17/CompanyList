@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Companies from "./components/Companies/Companies";
 import About from "./About.js";
+import Heading from "./components/Heading/Heading";
 import CompanyType from "./components/CompanyType/CompanyType";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,6 +14,7 @@ function App() {
     {
       Type: "Dream",
       list: ["Google", "Meta", "Apple", "Microsoft", "Netflix", "Amazon"],
+      url: "/dream",
     },
     {
       Type: "Big",
@@ -53,6 +55,7 @@ function App() {
         "Cadence Inc",
         "Coinbase",
       ],
+      url: "/big",
     },
     {
       Type: "FinTechBanks",
@@ -77,6 +80,7 @@ function App() {
         "Paypal",
         "Barclays",
       ],
+      url: "/fintech",
     },
     {
       Type: "unicorns",
@@ -155,6 +159,7 @@ function App() {
         "Upstox",
         "Slice",
       ],
+      url: "/unicorns",
     },
     {
       Type: "Startups",
@@ -188,6 +193,135 @@ function App() {
         "Algo University",
         "Spyne AI",
       ],
+      url: "/startups",
+    },
+    {
+      Type: "FinTech Startups",
+      list: [
+        "Paytm",
+        "Razorpay",
+        "Upstox",
+        "Cred",
+        "ETMoney",
+        "Instamojo",
+        "PolicyBazaar",
+        "MobiKwik",
+        "ZestMoney",
+        "Lendingkart",
+        "Refrens",
+        "Pine Labs",
+        "MoneyTap",
+        "Khatabook",
+        "Capital Float",
+        "Shiksha Finance",
+        "Amigobulls",
+        "KredX",
+        "CreditMantri",
+        "Mswipe",
+        "Financial Software Systems (FSS)",
+        "BankBazaar",
+        "Active.Ai",
+        "Finly",
+        "Ezetap",
+        "Financepeer",
+        "Loanwalle",
+        "Money View",
+        "Cube Wealth",
+        "Goal Teller",
+        "Kuants",
+        "ePayLater",
+        "PayKun",
+        "PaisaDukan",
+        "Cashfree",
+        "CoinDCX",
+        "Easy Home Finance",
+        "Recko",
+        "FypMoney",
+        "Avail Finance",
+        "Upwards",
+        "KreditBee",
+        "Finin",
+        "Sqrrl",
+        "Moneyfront",
+        "ClearTax",
+        "Groww",
+        "LoanTap",
+        "RevFin",
+        "PayU",
+      ],
+      url: "/fintech-startups",
+    },
+    {
+      Type: "Sass Based",
+      list: [
+        "Keka",
+        "Zoho",
+        "Agile CRM",
+        "IBSFintech",
+        "VTION",
+        "Freshworks",
+        "Playtonia",
+        "CloudCherry",
+        "Visual Website Optimiser (VWO)",
+        "Facilio Inc",
+        "Hippo Video",
+        "Paperflite",
+        "Talview",
+        "KlentySoft Inc",
+        "Qubole",
+        "Capillary Technologies",
+        "Chargebee",
+        "Unbxd",
+        "Hotelogix",
+        "Hackerrank",
+      ],
+      url: "/sass",
+    },
+    {
+      Type: "Edtech",
+      list: [
+        "BYJU’S",
+        "Classplus",
+        "Brainly",
+        "CollegeDunia",
+        "CueMath",
+        "Culturealley",
+        "Unacademy",
+        "UpGrad",
+        "Toppr",
+        "Next Education",
+        "Meritnation",
+        "Coding Ninjas",
+        "Scaler",
+        "Coding Blocks",
+        "Pepcoding",
+        "Bosscoder Academy",
+        "Quizizz",
+        "Campk12",
+        "Thinkerbell Labs",
+        "Adda247",
+      ],
+      url: "/edtech",
+    },
+    {
+      Type: "E-Commerce",
+      list: [
+        "Amazon",
+        "Flipkart",
+        "Meesho",
+        "Myntra",
+        "Curefit",
+        "Udaan",
+        "PharmEasy",
+        "Netmeds",
+        "Urban Company",
+        "Snapdeal",
+        "Walmart",
+        "Udaan",
+        "Ajio",
+        "Nurture.farm",
+      ],
+      url: "/ecommerce",
     },
     {
       Type: "Others",
@@ -212,6 +346,7 @@ function App() {
         "Global IDs",
         "Coditas",
       ],
+      url: "/others",
     },
   ];
 
@@ -233,16 +368,32 @@ function App() {
           element={<Companies companies={companyTypes[2]} />}
         />
         <Route
-          path="/startups"
+          path="/unicorns"
           element={<Companies companies={companyTypes[3]} />}
         />
         <Route
-          path="/unicorns"
+          path="/startups"
           element={<Companies companies={companyTypes[4]} />}
         />
         <Route
-          path="/others"
+          path="/fintech-startups"
           element={<Companies companies={companyTypes[5]} />}
+        />
+        <Route
+          path="/sass"
+          element={<Companies companies={companyTypes[6]} />}
+        />
+        <Route
+          path="/edtech"
+          element={<Companies companies={companyTypes[7]} />}
+        />
+        <Route
+          path="/ecommerce"
+          element={<Companies companies={companyTypes[8]} />}
+        />
+        <Route
+          path="/others"
+          element={<Companies companies={companyTypes[9]} />}
         />
       </Routes>
       <Footer />

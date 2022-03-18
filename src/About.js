@@ -13,7 +13,7 @@ const About = () => {
           View on GitHub
         </a>
       </header>
-      <div className="container ">
+      <div className="container-fluid">
         <h2>Reason for making this sheet 🤔</h2>
         <p>
           A few months ago when I was desperately looking for an internship, a

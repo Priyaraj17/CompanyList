@@ -6,7 +6,7 @@ const Company = ({ Name }) => {
     <li>
       <div>
         {Name}
-        <input type="checkbox" />
+        <input className="input" type="checkbox" />
       </div>
     </li>
   );

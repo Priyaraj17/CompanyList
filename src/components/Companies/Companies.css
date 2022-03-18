@@ -1,25 +1,16 @@
-/*** FONTS ***/
-
-/*** VARIABLES ***/
-/* Colors */
-/*** EXTEND ***/
-/* box-shadow */
 .list {
   width: 75%;
   margin: 0 auto;
+}
+.companies {
+  height: 500px;
+  overflow: auto;
 }
 ol.gradient-list > li::before,
 ol.gradient-list > li {
   box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
     0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
 }
-
-body {
-  background-color: #fafafa;
-  color: #1d1f20;
-  font-family: "Raleway", sans-serif;
-}
-
 main {
   display: block;
   margin: 0 auto;
@@ -132,4 +123,16 @@ ol.gradient-list > li:nth-child(10n + 10):before {
 }
 ol.gradient-list > li + li {
   margin-top: 2rem;
+}
+.companies:-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.companies:-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.companies:-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }

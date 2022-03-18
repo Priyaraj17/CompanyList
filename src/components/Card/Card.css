@@ -1,63 +1,57 @@
-.container-custom {
-  overflow-y: scroll;
-  height: 64vh;
+.order-card {
+  color: #fff;
 }
-.container::-webkit-scrollbar {
-  width: 5px; /* width of the entire scrollbar */
+a {
+  text-decoration: none;
 }
-.container::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255); /* color of the tracking area */
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #4099ff, #73b4ff);
 }
-.container::-webkit-scrollbar-thumb {
-  background-color: rgba(54, 54, 54, 0.466); /* color of the scroll thumb */
-  border-radius: 10px; /* roundness of the scroll thumb */
-  border: 3px solid rgba(78, 78, 78, 0.452); /* creates padding around scroll thumb */
+
+.bg-c-green {
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
 }
-.inprogress-card {
-  background-color: #aad6b9;
-  border-radius: 15px;
-  height: 90%;
+
+.bg-c-yellow {
+  background: linear-gradient(45deg, #ffb64d, #ffcb80);
 }
-.darkCard {
-  opacity: 0.9;
+
+.bg-c-pink {
+  background: linear-gradient(45deg, #ff5370, #ff869a);
 }
-.topicName {
-  color: #333333;
-  font-size: 25px;
-  font-weight: 700;
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.totalQuestion {
-  color: #4f4f4f;
-  font-weight: 700;
+
+.card .card-block {
+  padding: 25px;
 }
-.notstarted-card {
-  background-color: #aad0f6;
-  border-radius: 15px;
-  height: 90%;
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
 }
 
 .percentDone {
   color: #4f4f4f;
 }
-
-.container-custom2 {
-  width: 40vw;
-  min-width: 290px !important;
-}
-
-.hvr-grow {
-  vertical-align: middle;
-  -webkit-transform: perspective(0.5px) translateZ(0);
-  transform: perspective(0.5px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
+.card:hover,
+.card:focus,
+.card:active {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }

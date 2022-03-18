@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   height: 45px;
-  background-color: #27ae60;
+  background: #00b4db; /* fallback for old browsers */
   transition: all 0.4s ease-in-out;
 }
 
@@ -12,4 +12,13 @@
   justify-content: space-evenly;
   width: fit-content;
   position: relative;
+}
+.link {
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+  font-weight: 700;
+}
+.link:hover {
+  color: black;
 }

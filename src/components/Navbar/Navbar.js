@@ -4,24 +4,36 @@ import {
   BsGithub,
   BsTwitter,
   BsFillHouseFill,
-  BsLinkedin
+  BsLinkedin,
 } from "react-icons/bs";
 
 const Navbar = () => {
   return (
     <div className="nav">
-      <a href="https://twitter.com/collinscode">
-        <BsFillHouseFill></BsFillHouseFill>
-      </a>
-      <a href="https://twitter.com/collinscode_">
-        <BsTwitter></BsTwitter>
-      </a>
-      <a href="https://github.com/cmdeveloped">
-        <BsGithub />
-      </a>
-      <a href="#">
-        <BsLinkedin />
-      </a>
+      <div className="container_nav">
+        <div className="row">
+          <div className="col-2">
+            <a href="/">
+              <BsFillHouseFill></BsFillHouseFill>
+            </a>
+          </div>
+          <div className="col-2">
+            <a href="https://twitter.com/Helix_17">
+              <BsTwitter></BsTwitter>
+            </a>
+          </div>
+          <div className="col-2">
+            <a href="https://github.com/Priyaraj17">
+              <BsGithub />
+            </a>
+          </div>
+          <div className="col-2">
+            <a href="https://www.linkedin.com/in/priyaraj17/">
+              <BsLinkedin />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

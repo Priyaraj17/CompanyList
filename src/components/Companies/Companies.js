@@ -6,15 +6,17 @@ import "./Companies.css";
 
 const Companies = ({ companies }) => {
   return (
-    <div className="container">
+    <div className="company-list container">
       <Header Type={companies.Type} />
       <div className="list">
         <Navbar />
-        <ol className="gradient-list">
-          {companies.list.map((id) => (
-            <Company Name={id} />
-          ))}
-        </ol>
+        <div className="companies">
+          <ol className="gradient-list">
+            {companies.list.map((id) => (
+              <Company Name={id} />
+            ))}
+          </ol>
+        </div>
       </div>
     </div>
   );
