@@ -3,9 +3,9 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Companies from "./components/Companies/Companies";
-import About from "./About.js";
 import Heading from "./components/Heading/Heading";
 import CompanyType from "./components/CompanyType/CompanyType";
+import About from "./views/about";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -354,7 +354,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<CompanyType types={companyTypes} />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<About />} />
         <Route
           path="/dream"
           element={<Companies companies={companyTypes[0]} />}

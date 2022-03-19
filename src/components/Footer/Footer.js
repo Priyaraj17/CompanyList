@@ -12,7 +12,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="about col-6 d-flex justify-content-end p-2">
-          <a href="/about" className="link">
+          <a href="/" className="link">
             About
           </a>
         </div>

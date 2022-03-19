@@ -1,4 +1,5 @@
 import CardType from "../Card/Card";
+import SVG from "../SVG/SVG";
 import { Container, Row, Col } from "react-bootstrap";
 import Heading from "../Heading/Heading";
 
