@@ -9,6 +9,6 @@
 svg path {
   transition: 0.1s;
 }
-svg:hover path {
+/* svg:hover path {
   d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
-}
+} */

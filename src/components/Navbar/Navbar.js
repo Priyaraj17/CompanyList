@@ -14,12 +14,12 @@ const Navbar = () => {
         <ul className="navbar-nav">
           <li className="nav-item">
             <a href="/" className="nav-link link">
-              <BsFillHouseFill></BsFillHouseFill>
+              <BsFillHouseFill />
             </a>
           </li>
           <li className="nav-item">
             <a href="https://twitter.com/Helix_17" className="nav-link link">
-              <BsTwitter></BsTwitter>
+              <BsTwitter />
             </a>
           </li>
           <li className="nav-item">
@@ -36,28 +36,6 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        {/* <div className="row">
-          <div className="col-3">
-            <a href="/">
-              <BsFillHouseFill></BsFillHouseFill>
-            </a>
-          </div>
-          <div className="col-3">
-            <a href="https://twitter.com/Helix_17">
-              <BsTwitter></BsTwitter>
-            </a>
-          </div>
-          <div className="col-3">
-            <a href="https://github.com/Priyaraj17">
-              <BsGithub />
-            </a>
-          </div>
-          <div className="col-3">
-            <a href="https://www.linkedin.com/in/priyaraj17/">
-              <BsLinkedin />
-            </a>
-          </div>
-        </div> */}
       </div>
     </nav>
   );
