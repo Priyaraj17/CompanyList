@@ -18,6 +18,9 @@ Suppose you want to connect with recruiters of Sharechat so these are steps whic
 ## Usage ⭐️
 Feel free to update this sheet and add details such as CTC and internship stipend as well. I hope this sheet will be helpful to others. Please share this sheet among your peers and do give it a star ⭐️
 
+## Check out the website:
+[Link](https://company--list.herokuapp.com/)
+
 ## Feel free to connect with me
 
 <p align="center">
