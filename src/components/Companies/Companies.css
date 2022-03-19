@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .companies {
-  height: 500px;
+  height: 33rem;
   overflow: auto;
 }
 ol.gradient-list > li::before,
@@ -135,4 +135,11 @@ ol.gradient-list > li + li {
 .companies:-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+}
+
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  .companies {
+    height: 27rem;
+  }
 }
