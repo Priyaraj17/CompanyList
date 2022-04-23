@@ -151,6 +151,23 @@
 <li>Spinny</li>
 <li>Upstox</li>
 <li>Slice</li>
+<li>Pristyn Care</li>
+<li>Mamaearth</li>
+<li>GlobalBees</li>
+<li>Fractal</li>
+<li>LEAD School</li>
+<li>DarwinBox</li>
+<li>DealShare</li>
+<li>Polygon</li>
+<li>ElasticRun</li>
+<li>LivSpace</li>
+<li>XpressBees Logistics</li>
+<li>Uniphore Software Systems</li>
+<li>Hasura</li>
+<li>CredAvenue</li>
+<li>Amagi Media Labs</li>
+<li>Oxyzo Financial Services</li>
+<li>Games24x7</li>
 </ul>
 
 ### Good Startups ⭐️⭐️
