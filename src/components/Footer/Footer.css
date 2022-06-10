@@ -5,6 +5,7 @@
   height: 45px;
   background: #00b4db; /* fallback for old browsers */
   transition: all 0.4s ease-in-out;
+  z-index: 99;
 }
 
 .footer-toggle {
